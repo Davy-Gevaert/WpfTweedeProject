@@ -24,5 +24,12 @@ namespace WpfTweedeProject
         {
             InitializeComponent();
         }
+
+        private void bCountUp_Click(object sender, RoutedEventArgs e)
+        {
+            int counter = Convert.ToInt32(lCounter.Content);
+                counter++;
+                lCounter.Content = Convert.ToString(counter);
+        }
     }
 }

@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="bCountUp" Content="Count up" HorizontalAlignment="Left" Height="56" Margin="556,34,0,0" VerticalAlignment="Top" Width="160" Click="bCountUp_Click"/>
+        <Label x:Name="lCounter" Content="0" HorizontalAlignment="Left" Height="46" Margin="620,148,0,0" VerticalAlignment="Top" Width="140"/>
 
     </Grid>
 </Window>
